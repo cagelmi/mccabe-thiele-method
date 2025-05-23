@@ -112,23 +112,23 @@ Upon clicking the "Calculate" button:
 
 2. **Equilibrium Curve:** Calculated using the formula:
 
-   $$
-   y = \frac{\alpha \cdot x}{1 + (\alpha - 1) \cdot x}
-   $$
+   ```
+   y = alpha * x / (1 + (alpha - 1) * x)
+   ```
 
-3. **q-line:** The slope of the q-line is determined by the feed quality $q$. Its equation is:
+3. **q-line:** The slope of the q-line is determined by the feed quality `q`. Its equation is:
 
-   $$
-   y = \frac{q}{q - 1}x - \frac{zf}{q - 1}
-   $$
+   ```
+   y = (q / (q - 1)) * x - (zf / (q - 1))
+   ```
 
    (or `x = zf` if `q = 1`).
 
 4. **Rectifying Operating Line (ROL):**
 
-   $$
-   y = \frac{R}{R + 1}x + \frac{xd}{R + 1}
-   $$
+   ```
+   y = (R / (R + 1)) * x + (xd / (R + 1))
+   ```
 
 5. **Intersection Point (xi, yi):** The point where the q-line, ROL, and Stripping Operating Line (SOL) intersect is calculated. This point is crucial for determining the feed plate.
 
