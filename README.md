@@ -2,7 +2,7 @@
 
 This Python application provides a Graphical User Interface (GUI) for performing McCabe-Thiele graphical method calculations to estimate the number of theoretical plates required for a binary distillation column.
 
-The development of this Python GUI was assisted by **Google's Gemini 2.5 Pro Preview (May 6, 2024, model)**, which helped in translating the logic from a provided MATLAB example, structuring the Tkinter GUI, and implementing various features.
+The development of this Python GUI was assisted by Google's Gemini 2.5 Pro Preview (May 6, 2024, model). which helped in translating the logic from a MATLAB version.
 
 ## Table of Contents
 
@@ -53,11 +53,11 @@ The development of this Python GUI was assisted by **Google's Gemini 2.5 Pro Pre
 
 ### Main GUI (Default Values)
 
-![GUI Screenshot](./images/GUI.png)
+<img src="./images/GUI.png" alt="GUI Screenshot" width="600" />
 
 ### Exported Plot (Default Values)
 
-![Exported Plot Screenshot](./images/plot.png)
+<img src="./images/plot.png" alt="Exported Plot Screenshot" width="600" />
 
 ## How to Run
 
@@ -102,8 +102,7 @@ The user provides the following operating conditions for the binary distillation
 * **Distillate mole fraction (xd):** Desired mole fraction of the more volatile component in the distillate (top product).
 * **Bottoms mole fraction (xb):** Desired mole fraction of the more volatile component in the bottoms (bottom product).
 * **Reflux ratio (R):** Ratio of the liquid returned to the column (reflux) to the liquid removed as distillate. $R = L/D$.
-* **Relative volatility (alpha):** A measure of the separability of the two components. Assumed constant for this model. $
-  \alpha = (y_A/x_A) / (y_B/x_B)$.
+* **Relative volatility (alpha):** A measure of the separability of the two components. Assumed constant for this model.
 
 ### Calculations
 
