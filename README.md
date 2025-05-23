@@ -9,11 +9,9 @@ The development of this Python GUI was assisted by Google's Gemini 2.5 Pro Previ
 * [Features](#features)
 * [Screenshots](#screenshots)
 * [How to Run](#how-to-run)
-
   * [Prerequisites](#prerequisites)
   * [Running the Application](#running-the-application)
 * [Functionality Explained](#functionality-explained)
-
   * [Input Parameters](#input-parameters)
   * [Calculations](#calculations)
   * [Plotting](#plotting)
