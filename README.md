@@ -57,7 +57,8 @@ The development of this Python GUI was assisted by Google's Gemini 2.5 Pro Previ
 
 <img src="./images/plot.png" alt="Exported Plot Screenshot" width="600" />
 
-### Save the figure button: clean output  (Default Values)
+### Save with Matplotlib Toolbar (Default Values)
+
 <img src="./images/saved.png" alt="Exported Plot Screenshot" width="600" />
 
 ## How to Run
