@@ -9,7 +9,8 @@ The development of this Python GUI was developed with the assitance of Google's 
 * [Features](#features)
 * [Screenshots](#screenshots)
 * [How to Run](#how-to-run)
-  * [Prerequisites](#prerequisites)
+  * [Requirements](#requirements)
+  * [Installation](#installation)
   * [Running the Application](#running-the-application)
 * [Functionality Explained](#functionality-explained)
   * [Input Parameters](#input-parameters)
@@ -63,7 +64,7 @@ The development of this Python GUI was developed with the assitance of Google's 
 
 ## How to Run
 
-### Prerequisites
+### Requirements
 
 Make sure you have Python 3 installed. You will also need the following Python libraries:
 
@@ -71,11 +72,27 @@ Make sure you have Python 3 installed. You will also need the following Python l
 * **Matplotlib:** For plotting.
 * **NumPy:** For numerical calculations.
 
-You can install the necessary libraries using pip:
+### Installation
 
-```bash
-pip install matplotlib numpy
-```
+1.  **Ensure Python 3 is installed.** You can download it from [python.org](https://www.python.org/).
+2.  **Clone or download this repository.**
+3.  **(Recommended) Create and activate a virtual environment:**
+    *   Using standard Python `venv`:
+        ```bash
+        python -m venv venv
+        source venv/bin/activate  # On Linux/macOS
+        venv\Scripts\activate.bat   # On Windows CMD
+        venv\Scripts\Activate.ps1 # On Windows PowerShell
+        ```
+    *   Using Conda:
+        ```bash
+        conda create --name mccabe_env python=3.10 # Or your preferred version
+        conda activate mccabe_env
+        ```
+4.  **Install the required libraries:** Navigate to the project directory in your terminal (with the virtual environment activated) and run:
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 ### Running the Application
 
