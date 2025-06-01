@@ -2,7 +2,7 @@
 
 This Python application provides a Graphical User Interface (GUI) for performing McCabe-Thiele graphical method calculations to estimate the number of theoretical plates required for a binary distillation column.
 
-The development of this Python GUI was developed with the assitance of Google's Gemini 2.5 Pro Preview model, which helped in translating the logic from a MATLAB version created by me.
+The development of this Python GUI was done with the assitance of Google's Gemini 2.5 Pro Preview model, which helped in translating the logic from a MATLAB version created by me.
 
 ## Table of Contents
 
