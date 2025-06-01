@@ -191,4 +191,4 @@ When contributing to this repository, please first discuss the change you wish t
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the **MIT License**.
